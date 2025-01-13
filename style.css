@@ -1,0 +1,6 @@
+body{
+    display: flex;
+}
+.dados-perfil img{
+    width: 120px;
+}
