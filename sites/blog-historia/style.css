@@ -132,13 +132,13 @@ main{
     list-style: none;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 915px;
 }
 .serie{
-    width: 190px;
+    width: 200px;
     margin: 7px;
+    color: #EB5151;
 }
-.series h3{
+.geral-series h3{
     color: #273644;
 }
 .series p{
@@ -147,17 +147,15 @@ main{
 .series .italico{
     font-style: italic;
 }
-.serie{
-    color: #EB5151;
-}
 .geral-series .ver-colet{
     color: #2648A1;
     display: flex;
     justify-content: start;
 }
-footer{
+.descricao{
     display: flex;
     align-items: center;
+    font-size: 12px;
 }
 .autor{
     color: #C11616;
@@ -165,4 +163,19 @@ footer{
 }
 .links{
     list-style: none;
+}
+.geral-coletaneas{
+    display: flex;
+    justify-content: space-between;
+}
+.baixo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F9FAFC;
+}
+.web{
+    background-color: #EFF2F7;
+    display: flex;
+    justify-content: center;
 }
