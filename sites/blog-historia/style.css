@@ -1,0 +1,168 @@
+body{
+    font-family: "Inter", serif;
+}
+header{
+    background-color: #C11616;
+    display: flex;
+    justify-content: center;
+}
+.cima{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 12px;
+    margin-left: 0%;
+}
+.cima span{
+    font-style: italic;
+}
+.lupa{
+    margin: 12px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.geral-citacao{
+    display: flex;
+    justify-content: center;
+}
+.citacao{
+    max-width: 70%;
+}
+input{
+    background-color: #C11616;
+    border: 1px;
+    border-bottom: #fff;
+}
+h1{
+    color: #273644;
+}
+header a{
+    color: #fff;
+}
+.publicado{
+    background-color: #EFF2F7;
+    color: #3C4B58;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 5px;
+}
+
+.publicado a{
+    color: #C11616;
+}
+main{
+    display: flex;
+}
+.citacao p{
+    color: #707C8C;
+}
+.continue{
+    border: 0px;
+    background: rgb(239,239,242);
+    background: linear-gradient(90deg, rgba(239,239,242,1) 0%, rgba(255,255,255,0.8547794117647058) 30%, rgba(255,255,255,1) 100%);
+    padding: 5px;
+}
+.continue a{
+    color: #273644;
+    text-decoration: none;
+}
+.citacao h3{
+    color: #8D9AA6;
+}
+.filtros{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.filtros a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #EB5151;
+    padding: 5px;
+    border: 1px solid;
+}
+.ver-tudo{
+    color: #8D9AA6;
+    display: flex;
+    justify-content: end;
+}
+.galeria{
+    display: flex;
+    column-gap: 10px;
+    max-width: 80%;
+}
+.fotos{
+    display: flex;
+}
+.videos{
+    display: flex;
+}
+.galeria .mais{
+    display: flex;
+    justify-content: end;
+}
+.galeria a{
+    color: #C11616;
+    text-decoration: none;
+}
+.ultimos span{
+    color: #8D9AA6;
+}
+.ultimos a{
+    color: #3C4B58;
+}
+.post{
+    margin: 30px;
+}
+.ultimos .ver-tudo{
+    color: #2648A1;
+}
+.geral-series{
+    max-width: 70%;
+}
+.series{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 915px;
+}
+.serie{
+    width: 190px;
+    margin: 7px;
+}
+.series h3{
+    color: #273644;
+}
+.series p{
+    color: #8D9AA6;
+}
+.series .italico{
+    font-style: italic;
+}
+.serie{
+    color: #EB5151;
+}
+.geral-series .ver-colet{
+    color: #2648A1;
+    display: flex;
+    justify-content: start;
+}
+footer{
+    display: flex;
+    align-items: center;
+}
+.autor{
+    color: #C11616;
+    font-style: italic;
+}
+.links{
+    list-style: none;
+}
