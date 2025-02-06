@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* funções globais*/
+body{
+    font-family: "Lato", sans-serif;
+}
+.container-1{max-width: 1200px;}
+.container-2{max-width: 700px;}
+.container-1, .container-2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* funções específicas */
+header{
+    background-color: #203C86;
+    color: #FFFFFF;
+}
+header .redes-sociais{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.fotos{ /* Fotos ao lado (galeria) */
+    display: flex;  
+}
+.img-interna{
+    display: inline-block;
+    position: relative;
+}
+.img-interna img{ /* Deixa a descrição atrás da img interna */
+    position: relative;
+    z-index: 2;
+}
+.img-interna .descricao{ /* Descrição da imagem interna (edições) */
+    padding: 8px 16px;
+    box-sizing: border-box;
+    width: 90%;
+    left: 5%;
+    position: absolute;
+    border: 1px solid blue;
+    border-radius: 4px;
+    bottom: -30px;
+}
+.descricao{
+    /*quebrar linha*/
+}
+.telegram{
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 85%;
+    padding: 10px 20px;
+}
+.telegram .link{ /* Telegram pronto */
+    display: block;
+    background: rgb(4, 164, 228);
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #FFF;
+    font-weight: bold;
+}
+.telegram .link i{ /* Telegram pronto */
+    margin-right: 10px;
+}
+footer{
+    background-color: #203C86;
+    display: table;
+    width: 100%;
+}
+
+footer .coluna-1, 
+footer .coluna-2, 
+footer .coluna-3{
+    /*float: left;*/
+    width: 300px;
+
+}
