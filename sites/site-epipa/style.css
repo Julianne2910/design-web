@@ -4,8 +4,9 @@ body{
     font-family: "Lato", sans-serif;
 }
 .container-1{max-width: 1200px;}
-.container-2{max-width: 700px;}
-.container-1, .container-2{
+.container-2{max-width: 600px;}
+.container-3{max-width: 400px;}
+.container-1, .container-2, .container-3{
     margin-left: auto;
     margin-right: auto;
 }
@@ -18,17 +19,47 @@ header{
 header .redes-sociais{
     border-bottom: 1px solid #FFFFFF;
 }
-
+.menu{
+    list-style: none;
+    display: flex;
+    column-gap: 42px;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFF;
+}
+.mensagem{
+    text-align: end;
+}
+.mensagem em{
+    color: #203C86;
+}
 .fotos{ /* Fotos ao lado (galeria) */
-    display: flex;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-info{
+    display: flex;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.texto-epipa{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .img-interna{
     display: inline-block;
     position: relative;
+    float: right;
 }
 .img-interna img{ /* Deixa a descrição atrás da img interna */
     position: relative;
     z-index: 2;
+    width: 360px;
 }
 .img-interna .descricao{ /* Descrição da imagem interna (edições) */
     padding: 8px 16px;
@@ -66,6 +97,29 @@ footer{
     display: table;
     width: 100%;
 }
+.final{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top{
+    display: flex;
+}
+.sub-menu li{
+    list-style: none;
+}
+.sub-menu li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.coluna-1 li{
+    color: #fff;
+    list-style: none;
+}
+.down{
+    color: #FFF;
+}
+
 
 footer .coluna-1, 
 footer .coluna-2, 
