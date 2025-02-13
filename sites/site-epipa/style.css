@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-/* funções globais*/
 body{
+    margin: auto;
     font-family: "Lato", sans-serif;
 }
+
 .container-1{max-width: 1200px;}
-.container-2{max-width: 600px;}
+.container-2{max-width: 690px;}
 .container-3{max-width: 400px;}
 .container-1, .container-2, .container-3{
     margin-left: auto;
@@ -12,31 +13,95 @@ body{
 }
 
 /* funções específicas */
-header{
-    background-color: #203C86;
-    color: #FFFFFF;
+:root{
+    --bg-dark-blue: #001736;
+    --bg-bluee: #0D3F82;
+    --bg-blue: #203C86;
+    --bg-little-blue: #3A95E9;
+
+    --color-blue: #2648A1;
+    --color-yellow: #FFC82C;
+    --color-orange: #E7982F;
+    --color-white: #FAFAFC;
+    --color-white2: #ffffff48;
+
+    --max-width: 600px;
 }
-header .redes-sociais{
-    border-bottom: 1px solid #FFFFFF;
+@media (max-width: 600px) {
+    .redes{
+        display: none;
+    }
 }
-.menu{
-    list-style: none;
+.redes{
+    color: var(--color-white);
+    position: relative;
     display: flex;
-    column-gap: 42px;
+    justify-content: flex-end;
+    margin: 5px;
+    border-bottom: 1px solid var(--color-white2);
+    
 }
-.menu a{
+.redes img{
+    margin-left: 20px;
+    
+}
+.header{
+    background: var(--bg-blue);
+    
+    
+}
+.container{
+    width: 80%;
+    padding: 5px;
+    height: 113px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.header span li {
+    list-style: none;
+    margin: 10px;
+    display: inline;
+    
+}
+.header span li a{
     text-decoration: none;
-    color: #FFF;
+    color: var(--color-white);
 }
+.header span li a b{
+    border-bottom: 3px solid var(--color-yellow);
+    padding-bottom: 32px;   
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo-1{
+    font-size: 38px;
+    margin-top: 90px;
+}
+.noticia p{
+    font-size: 18.5px;
+}
+
+
 .mensagem{
     text-align: end;
+    font-family: "Montserrat", serif;
 }
 .mensagem em{
     color: #203C86;
+    font-size: 19px;
+}
+.mensagem small{
+    font-size: 15px;
 }
 .fotos{ /* Fotos ao lado (galeria) */
     display: flex;
     justify-content: space-between;
+}
+.fotos figcaption{
+    font-family: "Montserrat", serif;
 }
 
 .texto-info{
@@ -50,11 +115,27 @@ header .redes-sociais{
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Montserrat", serif;
 }
+.texto-epipa h2{
+    color: #2648A1;
+    font-size: 24px;
+}
+.texto-epipa small{
+    font-size: 16px;
+}
+.texto-epipa p{
+    font-size: 16px;
+}
+.galeria h2{
+    color: #2648A1;
+}
+
 .img-interna{
     display: inline-block;
     position: relative;
     float: right;
+    margin-top: 110px;
 }
 .img-interna img{ /* Deixa a descrição atrás da img interna */
     position: relative;
@@ -69,7 +150,9 @@ header .redes-sociais{
     position: absolute;
     border: 1px solid blue;
     border-radius: 4px;
-    bottom: -30px;
+    bottom: -50px;
+    font-family: "Montserrat", serif;
+    color: #2648A1;
 }
 .descricao{
     /*quebrar linha*/
@@ -79,6 +162,9 @@ header .redes-sociais{
     border-radius: 10px;
     width: 85%;
     padding: 10px 20px;
+}
+.telegram p{
+    color: #8492A6;
 }
 .telegram .link{ /* Telegram pronto */
     display: block;
@@ -104,6 +190,7 @@ footer{
 }
 .top{
     display: flex;
+    margin-left: -39px;
 }
 .sub-menu li{
     list-style: none;
@@ -118,13 +205,15 @@ footer{
 }
 .down{
     color: #FFF;
+    font-size: 14px;
 }
 
 
 footer .coluna-1, 
-footer .coluna-2, 
 footer .coluna-3{
     /*float: left;*/
     width: 300px;
-
+}
+footer .coluna-2{
+    width: 500px;
 }
