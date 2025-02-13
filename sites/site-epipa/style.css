@@ -197,14 +197,15 @@ footer{
 }
 .sub-menu li a{
     text-decoration: none;
-    color: #FFF;
+    color: #F9FAFC;
 }
 .coluna-1 li{
-    color: #fff;
+    color: #F9FAFC;
     list-style: none;
+    display: block;    
 }
 .down{
-    color: #FFF;
+    color: #F9FAFC;
     font-size: 14px;
 }
 
