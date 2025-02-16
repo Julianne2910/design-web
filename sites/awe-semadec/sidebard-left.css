@@ -1,6 +1,45 @@
 .left{
-    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
-    height: 869px;
-    padding: 32px;
-    width: 176px;
+    max-width: 158px;
+    height: 840px;
+    padding: 20px;
+    padding-top: 10px;
+    border-right: var(--cinsa-cancel) 1px solid;
+}
+.seta-left{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    margin-bottom: 5px;
+}
+
+.botoes-left button{
+    background-color: #fff;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 0px;
+    width: 154px;
+}
+.botoes-left .button-especial{
+    background-color: var(--blue-cinsa);
+}
+.img-button, .img-azul{
+    padding: 8px;
+}
+.img-azul{
+    background-color: var(--blue-escuro-left);
+}
+.text-button, .text-cinsa{
+    color: var(--blue-escuro-left); 
+    font-family: var(--font-left-center);
+    font-size: 16px;
+    margin-left: 8px;
+}
+.cima{
+    padding-bottom: 474px;
+}
+.baixo{
+    border-top: var(--cinsa-cancel) 1px solid;
+    padding-top: 30px;
 }
