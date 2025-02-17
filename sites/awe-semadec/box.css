@@ -1,0 +1,50 @@
+.conj-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.box-trab{
+    border: 1px solid;
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box-trab h1{
+    margin: 0px;
+    font-family: var(--font-up-dow-right);
+}
+.box-trab small, strong{
+    font-family: var(--font-left-center);
+    font-size: 16px;
+}
+.box-trab .small-azul, strong{
+    color: var(--blue-detalhes);
+}
+.small-black{
+    color: var(--black-numbers-37);
+}
+.header-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part-1-box{
+    display: flex;
+    align-items: center;
+}
+.part-1-box small{
+    margin-left: 10px;
+}
+.number-especial{
+    display: flex;
+    align-items: end;
+}
+.zeros{
+    color: var(--black-numbers-37);
+}
+.text-especial{
+    display: inline-block;
+}
