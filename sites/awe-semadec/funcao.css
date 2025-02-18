@@ -1,29 +1,34 @@
 .header-funcoes{
     padding-bottom: 15px;
 }
-.str-funcao, .sml-funcao{
+.str, .sml{
     font-family: var(--font-up-dow-right);
     color: var(--black-dow-49);
 }
-.str-funcao{
+.str{
     font-size: 18px;
     margin: 0px;
 }
-.sml-funcao{
-    font-size: 17px;
+.sml{
+    font-size: 16px;
 }
 .botoes-funcoes{
     display: flex;
     justify-content: space-between;
 }
-.botoes-funcoes button{
-    width: 110px;
-    height: 110px;
-    padding: 0px;
+.botoes-funcoes .botao, .botao-add, .botao-more{
     border: 1px solid;
     border-color: var(--blue-detalhes);
     border-radius: 10px;
     background-color: #fff;
+}
+.botao, .botao-more{
+    width: 110px;
+    height: 110px;
+    padding: 0px;
+}
+.botao-add{
+    padding: 18px;
 }
 .botoes-funcoes .botao-more{
     border: 1px dashed;
