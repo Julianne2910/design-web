@@ -2,26 +2,40 @@
     display: flex;
     justify-content: space-between;
     padding-top: 35px;
+    padding-bottom: 40px;
 }
 .box-trab{
-    border: 1px solid;
-    width: 250px;
+    border: 0px;
+    border-radius: 6px;
+    width: 225px;
     height: 100px;
-    padding: 10px;
+    padding: 15px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: var(--blue-cinsa);
 }
 .box-trab h1{
     margin: 0px;
     font-family: var(--font-up-dow-right);
+    color: var(--black-numbers-37);
+}
+.box-trab .h1{
+    padding-bottom: 10px;
 }
 .box-trab small, strong{
     font-family: var(--font-left-center);
-    font-size: 16px;
+    font-size: 14px;
+}
+.small-azul, .small-black{
+    margin-bottom: 4px;
 }
 .box-trab .small-azul, strong{
     color: var(--blue-detalhes);
+}
+.strong-especial{
+    margin: 0px;
 }
 .small-black{
     color: var(--black-numbers-37);
@@ -30,6 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 30px;
 }
 .part-1-box{
     display: flex;
@@ -38,9 +53,13 @@
 .part-1-box small{
     margin-left: 10px;
 }
+.eye-box{
+    padding-right: 4px;
+}
 .number-especial{
     display: flex;
     align-items: end;
+    padding-bottom: 10px;
 }
 .zeros{
     color: var(--black-numbers-37);

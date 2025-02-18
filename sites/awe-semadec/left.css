@@ -1,7 +1,7 @@
 .left{
     max-width: 158px;
     height: 854px;
-    padding: 20px;
+    padding: 25px;
     padding-top: 10px;
     border-right: var(--cinsa-cancel) 1px solid;
     display: flex;
@@ -43,4 +43,5 @@
 }
 .baixo{
     border-top: var(--cinsa-cancel) 1px solid;
+    padding-top: 35px;
 }
