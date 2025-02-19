@@ -19,6 +19,9 @@
     --font-degrade: "Montserrat";
 
 }
+body{
+    margin: 0px;
+}
 .container{
     display: flex;
 }
