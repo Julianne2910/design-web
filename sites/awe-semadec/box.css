@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding-top: 35px;
     padding-bottom: 40px;
+    gap: 1em;
 }
 .box-trab{
     border: 0px;
@@ -15,6 +16,9 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--blue-cinsa);
+    flex-basis: 0.1;
+    flex-shrink: 0.1;
+    flex-grow: 0.1;
 }
 .box-trab h1{
     margin: 0px;

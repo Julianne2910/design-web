@@ -37,6 +37,7 @@
     background-color: var(--white-fe);
     display: flex;
     align-items: center;
+    box-shadow: -2px 2px 6px 0px rgba(15, 54, 121, 0.15);
 }
 .button-pendent strong{
     font-family: var(--font-up-dow-right);
@@ -52,15 +53,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 .botoes-pendent span{
-    font-size: 0.65em;
-    border: 1px solid;
+    font-size: 0.7em;
+    border: 1px solid var(--blue-pendent);
     border-radius: 50%;
     padding: 4px;
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: -14px;
+    right: -2px;
     z-index: 1000;
     color: var(--cinsa-cancel);
     background: var(--blue-pendent);
@@ -85,6 +87,7 @@
     height: 110px;
     padding: 16px;
     border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
 }
 .box-atividade strong{
     color: var(--blue-entrega);

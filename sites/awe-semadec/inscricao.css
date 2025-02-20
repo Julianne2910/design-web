@@ -16,7 +16,21 @@
 .link-ultimas a{
     color: var(--blue-entrega);
 }
-.agenda{
+.ultimas-agendas{
+    position: relative;
+}
+.ultimas-agendas::after{
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, #FFF 77.9%);
+    
+}
+
+.agenda, .agenda-especial{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +42,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.agenda .circle, .circle-blue, .circle-red{
+.circle, .circle-blue, .circle-red{
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -47,15 +61,21 @@
     color: var(--black-dow-49);
     font-size: 14px;
 }
-.agenda .nome{
+.agenda-especial small{
+    font-family: var(--font-up-dow-right);
+    color: var(--black-dow-49);
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.nome{
     width: 180px;
     height: 20;
 }
-.agenda .curso{
+.curso{
     width: 74px;
     height: 20;
 }
-.agenda .sport{
+.sport{
     width: 120px;
     height: 20;
 }
