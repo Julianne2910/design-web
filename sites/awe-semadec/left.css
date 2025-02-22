@@ -22,23 +22,30 @@
     margin-bottom: 12px;
     padding: 0px;
     width: 154px;
+    height: 40px;
 }
 .button-sair{
     margin-top: 40px;
 }
-.botoes-left .button-especial{
+.botoes-left button:hover{
     background-color: var(--blue-cinsa);
 }
-.img-button, .img-azul{
+.img-button{
     padding: 8px;
 }
-.img-azul{
-    background-color: var(--blue-escuro-left);
+/*.img-button img:active{
+    display: flex;
+    align-items: center;
+    background-image: url(img/);
+    background-repeat: no-repeat;
 }
+.img-button:active{
+    background-color: var(--blue-escuro-left);
+}*/
 .text-button, .text-cinsa{
     color: var(--blue-escuro-left); 
     font-family: var(--font-left-center);
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 8px;
 }
 .baixo{
