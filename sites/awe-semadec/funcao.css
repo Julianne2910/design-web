@@ -22,6 +22,13 @@
 .buts-funcao .botao, .botao-add{
     margin-right: 20px;
 }
+.buts-funcao .botao:hover, .botao-add:hover{
+    background-color: var(--blue-detalhes);
+    color: white !important;
+}
+.buts-funcao .botao:hover small{
+    color: white;
+}
 .botao, .botao-add, .botao-more{
     border: 1px solid;
     border-color: var(--blue-detalhes);

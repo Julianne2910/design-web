@@ -24,6 +24,7 @@
     margin: 0px;
     font-family: var(--font-titulos);
     color: var(--black-numbers-37);
+    font-size: 32px;
 }
 .box-trab .h1{
     padding-bottom: 10px;
