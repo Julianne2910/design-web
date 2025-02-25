@@ -39,9 +39,24 @@
     align-items: center;
     box-shadow: -2px 2px 6px 0px rgba(15, 54, 121, 0.15);
 }
-/*.button-pendent:hover, .img-pendent:hover{
+.botoes-pendent .button-pendent:hover{
     background-color: var(--blue-escuro-left);
-}*/
+}
+
+.botoes-pendent .button-pendent:hover strong{
+    color: #fff;
+}
+.botoes-pendent .button-pendent:hover span{
+    background-color: var(--blue-escuro-left);
+    border-color: var(--blue-escuro-left);
+}
+.botoes-pendent .button-pendent:hover .img-pendent{
+    background-color: var(--blue-escuro-left);
+    border: 1px solid #fff;
+}
+.botoes-pendent .button-pendent:hover .stroke{
+    stroke: #fff; 
+}
 
 .button-pendent strong{
     font-family: var(--font-up-dow-right);

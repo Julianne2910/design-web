@@ -21,27 +21,26 @@
     align-items: center;
     margin-bottom: 12px;
     padding: 0px;
-    width: 154px;
+    width: 147px;
     height: 40px;
-}
-.button-sair{
-    margin-top: 40px;
 }
 .botoes-left button:hover{
     background-color: var(--blue-cinsa);
 }
 .img-button{
-    padding: 8px;
-}
-/*.img-button img:active{
+    gap: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
-    background-image: url(img/);
-    background-repeat: no-repeat;
 }
-.img-button:active{
+.botoes-left button:active .stroke{
+    stroke: #fff;
+}
+.botoes-left button:active .img-button{
     background-color: var(--blue-escuro-left);
-}*/
+}
 .text-button, .text-cinsa{
     color: var(--blue-escuro-left); 
     font-family: var(--font-left-center);
