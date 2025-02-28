@@ -14,7 +14,7 @@
     justify-content: end;
     margin-bottom: 5px;
 }
-.botoes-left button{
+.botoes-left button, .botoes-botton button{
     background-color: #fff;
     border: 0px;
     display: flex;
