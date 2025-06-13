@@ -1,0 +1,35 @@
+:root{
+    --blanc: #fff;
+}
+body{
+    background-color:rgb(19, 18, 20);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+h1{
+    font-family: "Oswald";
+    color: var(--blanc)
+}
+.pesquisa{
+    background-image: url(img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 20px 16px;
+    background-color:rgb(88, 89, 99);
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px 30px;
+    padding-left: 42px;
+    width: 100%;
+    font-size: 14px;
+}
+.pesquisa::placeholder{
+  color: white;}
+
+.right-header img{
+    widht: 20px;
+    height: 20px;
+}
