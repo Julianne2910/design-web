@@ -1,35 +1,40 @@
 :root{
-    --blanc: #fff;
+    --color: ;
 }
 body{
     background-color:rgb(19, 18, 20);
+    color: #fff;
+    font-family: "Roboto";
 }
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
 }
 h1{
     font-family: "Oswald";
-    color: var(--blanc)
+    color: white;
 }
 .pesquisa{
-    background-image: url(img/lupa.png);
+    background-image: url(img/search.svg);
     background-repeat: no-repeat;
-    background-position: 20px 16px;
+    background-position: 200px 4px;
     background-color:rgb(88, 89, 99);
     border: 0px;
     border-radius: 15px;
-    padding: 10px 30px;
-    padding-left: 42px;
+    padding: 8px;
+    padding-left: 25px;
     width: 100%;
     font-size: 14px;
 }
 .pesquisa::placeholder{
   color: white;}
 
+.right-header{
+    display: flex;
+}
 .right-header img{
-    widht: 20px;
-    height: 20px;
+    width: 30px;
+    padding-right: 5px;
 }
