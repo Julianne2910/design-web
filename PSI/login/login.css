@@ -1,0 +1,72 @@
+body{
+    background-color:rgb(19, 18, 20);
+    color: #fff;
+    font-family: "Roboto";
+    margin: 0px;
+    width: 100%;
+    height: 945px;
+    display: grid;
+    place-items: center;
+}
+.box-login{
+    background-color: rgba(89, 46, 206, 0.589);
+    border-radius: 10px;
+    width: 300px;
+    height: 490px;
+}
+h1{
+    font-size: 30px;
+    padding-top: 40px;
+}
+h1, h2{
+    display: flex;
+    justify-content: center;
+
+}
+a{
+    color: white;
+}
+small{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    padding-bottom: 90px;
+}
+input{
+    background-color:rgba(89, 46, 206, 0);
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    width: 77%;
+    font-size: 14px;
+}
+input::placeholder{
+  color: rgb(203, 193, 231);
+}
+.senha{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: white;
+    background-color: rgb(88, 89, 99);
+    border-radius: 20px;
+    border: 0px;
+    width: 90%;
+    height: 30px;
+}
+button:hover{
+    background-color: rgb(88, 46, 206);
+    color:rgb(203, 193, 231);
+}
+.cadastro{
+    padding-top: 10px;
+    padding-left: 15px;
+}

@@ -7,6 +7,9 @@ body{
     font-family: "Roboto";
     margin: 0px;
 }
+.container{
+    display: flex;
+}
 .header{
     display: flex;
 }
@@ -17,7 +20,7 @@ h1{
     background-image: url(img/search.svg);
     background-repeat: no-repeat;
     background-position: 10px 4px;
-    background-color:rgb(88, 89, 99);
+    background-color:rgba(89, 46, 206, 0.589);
     border: 0px;
     border-radius: 15px;
     padding: 8px;
