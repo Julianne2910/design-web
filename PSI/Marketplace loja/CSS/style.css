@@ -72,6 +72,7 @@ section{
     letter-spacing: .2rem;
 }
 
+/* Header - inicio  */
 .header{
     background: var(--bg);
     display: flex;
@@ -203,7 +204,9 @@ section{
     width: 100%;
     text-align: center;
 }
+/* Header - fim  */
 
+/* Home - inicio  */
 .home{
     min-height: 100vh;
     display: flex;
@@ -230,7 +233,9 @@ section{
     padding:1rem 0;
     color:#eee;
 }
+/* Home - fim  */
 
+/* Sobre - inicio  */
 .sobre{
     min-height: 90vh;
     margin-top: 94px;
@@ -268,7 +273,9 @@ section{
     padding:1rem 0;
     line-height: 1.8;
 }
+/* Sobre - fim  */
 
+/* Produtos - inicio  */
 .produtos{
     min-height: 90vh;
     margin-top: 94px;
@@ -284,7 +291,7 @@ section{
     text-align: center;
     border:var(--border);
     padding: 2rem;
-        border-radius: 6px;
+    border-radius: 6px;
 }
 
 .produtos .box-container .box-produtos .icons a{
@@ -294,7 +301,7 @@ section{
     font-size: 2rem;
     border:var(--border);
     color:#fff;
-    margin:.3rem;
+    margin:0.3rem;
     border-radius: 6px;
 }
 
@@ -335,7 +342,59 @@ section{
     font-weight: lighter;
     font-size: 1.5rem;
 }
+/* Produtos - fim  */
 
+/* Tabela - inicio  */
+.tabela{
+    min-height: 90vh;
+    margin-top: 94px;
+    color: #fff;
+    font-size: 20px;
+    font-size: 2rem;
+}
+
+.tabela .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+.tabela table{
+    border-radius: 6px;
+    border-collapse: collapse;
+    background:var(--black);
+}
+
+.tabela table th, td{
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.tabela table td{
+    color: #ccc;
+}
+
+.tabela table .linha-cima td{
+    border-top:var(--border);
+}
+
+.tabela table .primeira th{
+    padding-top: 10px;
+}
+
+.tabela table .ultima td{
+    padding-bottom: 10px;
+}
+
+.border-right{
+    border-right:var(--border);
+}
+
+/* Tabela - fim  */
+
+/* Avaliações - inicio  */
 .avaliacoes{
     min-height: 90vh;
     margin-top: 94px;
@@ -378,7 +437,9 @@ section{
     font-size: 1.5rem;
     color:var(--main-color);
 }
+/* Avaliações - fim  */
 
+/* Cadastro - inicio  */
 .cadastro{
     min-height: 90vh;
     margin-top: 94px;
@@ -387,27 +448,26 @@ section{
     align-items: center;
 }
 
-.cadastro .row{
+.cadastro .content{
     display: flex;
     background:var(--black);
-    flex-wrap: wrap;
     gap:1rem;
     border-radius: 6px;
 }
 
-.cadastro .row .box-cadastro{
+.cadastro .content .box-cadastro{
     flex:1 1 45rem;
     padding:5rem 2rem;
     text-align: center;
 }
 
-.cadastro .row .box-cadastro h3{
+.cadastro .content .box-cadastro h3{
     text-transform: uppercase;
     font-size: 3.5rem;
     color:var(--main-color)
 }
 
-.cadastro .row .box-cadastro .inputBox{
+.cadastro .content .box-cadastro .inputBox{
     display: flex;
     align-items: center;
     margin-top: 2rem;
@@ -417,13 +477,13 @@ section{
     border-radius: 6px;
 }
 
-.cadastro .row .box-cadastro .inputBox span{
+.cadastro .content .box-cadastro .inputBox span{
     color:#fff;
     font-size: 2rem;
     padding-left: 2rem;
 }
 
-.cadastro .row .box-cadastro .inputBox input{
+.cadastro .content .box-cadastro .inputBox input{
     width: 100%;
     padding:2rem;
     font-size: 1.7rem;
@@ -431,7 +491,9 @@ section{
     text-transform: none;
     background:none;
 }
+/* Cadastro - fim  */
 
+/* Footer - inicio  */
 .footer{
     background:var(--black);
     text-align: center;
@@ -485,7 +547,7 @@ section{
 .footer .mensage span{
     color:var(--main-color);
 }
-
+/* Footer - fim  */
 
 /* media queries  */
 @media (max-width:991px){
